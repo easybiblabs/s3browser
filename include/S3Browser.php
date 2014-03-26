@@ -1,7 +1,5 @@
 <?php
 
-require ROOT_DIR.'/libs/s3-php/S3.php';
-
 class S3Browser {
   private $s3Bucket;
   private $s3AccessKey;

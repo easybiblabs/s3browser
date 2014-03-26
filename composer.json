@@ -1,0 +1,27 @@
+{
+  "authors": [
+    {
+      "name": "Garret Heaton",
+      "homepage": "https://github.com/powdahound"
+    },
+    {
+      "name": "Florian Holzhauer",
+      "homepage": "https://github.com/fh"
+    }
+  ],
+  "autoload": {
+    "classmap": ["include/S3Browser.php"]
+  },
+  "description": "Web-based S3 bucket browsing tool. Similar to Apache-style indexes",
+  "keywords": [
+    "s3",
+    "browser",
+    "directory"
+  ],
+  "license": "MIT",
+  "name": "powdahound/s3browser",
+  "require": {
+    "php": ">=5.3",
+    "tpyo/amazon-s3-php-class": "0.5.0"
+  }
+}
